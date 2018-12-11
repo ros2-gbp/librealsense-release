@@ -1,0 +1,13 @@
+Source: ros-crystal-librealsense2
+Section: misc
+Priority: extra
+Maintainer: Sergey Dorodnicov <sergey.dorodnicov@intel.com>
+Build-Depends: debhelper (>= 9.0.0), dkms, libgl1-mesa-dev, libglfw3-dev, libglu1-mesa-dev, libgtk-3-dev, libssl-dev, libusb-1.0-0-dev, linux-headers-generic, pkg-config, ros-crystal-ament-cmake, udev, ros-crystal-ros-workspace
+Homepage: https://github.com/IntelRealSense/librealsense/
+Standards-Version: 3.9.2
+
+Package: ros-crystal-librealsense2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, dkms, libgl1-mesa-dev, libglfw3-dev, libglu1-mesa-dev, libgtk-3-dev, libssl-dev, libusb-1.0-0-dev, linux-headers-generic, udev, ros-crystal-ros-workspace
+Description: Library for capturing data from the Intel(R) RealSense(TM) SR300 and D400 cameras.
+ This effort was initiated to better support researchers, creative coders, and app developers in domains such as robotics, virtual reality, and the internet of things. Several often-requested features of RealSense(TM); devices are implemented in this project, including multi-camera capture.
