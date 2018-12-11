@@ -27,10 +27,13 @@
 
   <build_depend>pkg-config</build_depend>
 
+  <depend>dkms</depend>
+  <depend>gtk3</depend>
+  <depend>libglfw3-dev</depend>
+  <depend>libssl-dev</depend>
   <depend>libusb-1.0-dev</depend>
   <depend>linux-headers-generic</depend>
-  <depend>libssl-dev</depend>
-  <depend>dkms</depend>
+  <depend>opengl</depend>
   <depend>udev</depend>
 
   <export>
