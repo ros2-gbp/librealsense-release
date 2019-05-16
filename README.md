@@ -1,3 +1,26 @@
+## librealsense (dashing) - 2.16.5-0
+
+The packages in the `librealsense` repository were released into the `dashing` distro by running `/usr/local/bin/bloom-release --rosdistro dashing --track dashing librealsense` on `Thu, 16 May 2019 02:22:48 -0000`
+
+The `librealsense2` package was released.
+
+Version of package(s) in repository `librealsense`:
+
+- upstream repository: https://github.com/IntelRealSense/librealsense.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.16.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.9`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## librealsense (crystal) - 2.16.5-2
 
 The packages in the `librealsense` repository were released into the `crystal` distro by running `/usr/local/bin/bloom-release --rosdistro crystal --track crystal librealsense --edit` on `Wed, 16 Jan 2019 01:18:53 -0000`
