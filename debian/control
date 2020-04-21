@@ -1,0 +1,13 @@
+Source: ros-dashing-librealsense2
+Section: misc
+Priority: optional
+Maintainer: Sergey Dorodnicov <sergey.dorodnicov@intel.com>
+Build-Depends: debhelper (>= 9.0.0), dkms, libgl1-mesa-dev, libglfw3-dev, libglu1-mesa-dev, libgtk-3-dev, libssl-dev, libusb-1.0-0-dev, linux-headers-generic, pkg-config, ros-dashing-ament-cmake, udev
+Homepage: https://github.com/IntelRealSense/librealsense/
+Standards-Version: 3.9.2
+
+Package: ros-dashing-librealsense2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, dkms, libgl1-mesa-dev, libglfw3-dev, libglu1-mesa-dev, libgtk-3-dev, libssl-dev, libusb-1.0-0-dev, linux-headers-generic, udev
+Description: Library for capturing data from the Intel(R) RealSense(TM) SR300, D400 Depth cameras and T2xx Tracking devices.
+ This effort was initiated to better support researchers, creative coders, and app developers in domains such as robotics, virtual reality, and the internet of things. Several often-requested features of RealSense(TM); devices are implemented in this project.
