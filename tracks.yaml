@@ -38,8 +38,8 @@ tracks:
     - git-bloom-generate -y rosrpm --prefix release/:{ros_distro} :{ros_distro} -i
       :{release_inc}
     devel_branch: null
-    last_release: v2.16.5.2_ros2
-    last_version: 2.16.5
+    last_release: ros2debian
+    last_version: 2.34.0
     name: lirealsense
     patches: null
     release_inc: '1'
