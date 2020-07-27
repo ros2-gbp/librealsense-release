@@ -1,3 +1,26 @@
+## librealsense (foxy) - 2.34.0-2
+
+The packages in the `librealsense` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --rosdistro foxy --track foxy librealsense --edit-track` on `Mon, 27 Jul 2020 03:02:33 -0000`
+
+The `librealsense2` package was released.
+
+Version of package(s) in repository `librealsense`:
+
+- upstream repository: https://github.com/IntelRealSense/librealsense.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `2.34.0-1`
+- new version: `2.34.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.18`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## librealsense (foxy) - 2.34.0-1
 
 The packages in the `librealsense` repository were released into the `foxy` distro by running `/usr/bin/bloom-release --rosdistro foxy --track foxy librealsense -n` on `Tue, 21 Apr 2020 17:01:05 -0000`
